@@ -1,27 +1,40 @@
-# LinkShortnerWebapp
+# Link Shortener WebApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+A simple Angular-based web application that shortens URLs using the **Bitly API**. Users can input a long URL and receive a shortened version, which can be copied to the clipboard.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Input a long URL and get a shortened URL.
+- Display the shortened URL as a clickable link.
+- Copy the shortened URL to the clipboard.
+- Error handling for invalid URLs or API failures.
+- Responsive and clean UI using **Bootstrap 5.1.3**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular**: Framework for building the application.
+- **Bootstrap 5.1.3**: For styling and responsive design.
+- **Bitly API**: Service for URL shortening.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Prerequisites
 
-## Running end-to-end tests
+Ensure you have the following installed:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Node.js**: v16 or higher
+- **Angular CLI**: v15 or higher
+- A **Bitly API Token**
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/link-shortener-webapp.git
+   cd link-shortener-webapp
