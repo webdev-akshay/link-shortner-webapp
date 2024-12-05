@@ -21,7 +21,9 @@ export class AppComponent implements OnInit{
 
   }
   shortenUrl() {
-    if (!this.longUrl) return; // Prevent empty submission
+    if(!this.longUrl){
+      alert("Enter a URL")
+    }
 
     this.bitlyService.shortenUrl(this.longUrl).subscribe(
       (data: any) => {
